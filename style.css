@@ -775,12 +775,13 @@ header .navbar {
     flex-direction: column-reverse;
   }
 
-  .about-section .about-image-wrapper .about-image {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 1;
-    max-width: 250px;
-  }
+.about-section .about-image-wrapper .about-image{
+    width:260px;
+    height:340px;
+    object-fit:cover;
+    border-radius:24px;
+    max-width:100%;
+}
 
   .menu-section .menu-list {
     gap: 30px;
@@ -808,20 +809,26 @@ header .navbar {
   }
 }
 
-/* Responsive media query code for max width 640px */
 @media screen and (max-width: 640px) {
 
-  .menu-section .menu-list .menu-item,
-  .gallery-section .gallery-list .gallery-item {
-    width: 100%;
-  }
+    .menu-section .menu-list .menu-item,
+    .gallery-section .gallery-list .gallery-item {
+        width: 100%;
+    }
 
-  .menu-section .menu-list {
-    gap: 60px;
-  }
+    .gallery-section .gallery-list .gallery-item .gallery-image{
+        height:420px;
+        object-fit:cover;
+        object-position:center;
+    }
 
-  .footer-section .section-content {
-    flex-direction: column;
-    gap: 20px;
-  }
+    .menu-section .menu-list{
+        gap:60px;
+    }
+
+    .footer-section .section-content{
+        flex-direction:column;
+        gap:20px;
+    }
+
 }
