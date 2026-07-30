@@ -14,3 +14,4 @@ menuCloseButton.addEventListener("click", () => menuOpenButton.click());
 navbarLinks.forEach((link) => {
   link.addEventListener("click", () => menuOpenButton.click());
 });
+
