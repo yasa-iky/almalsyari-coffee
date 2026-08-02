@@ -15,3 +15,27 @@ navbarLinks.forEach((link) => {
   link.addEventListener("click", () => menuOpenButton.click());
 });
 
+// =======================================
+// PINDAHKAN LOGO HERO KHUSUS MOBILE
+// =======================================
+
+window.addEventListener("load", () => {
+
+    // hanya untuk HP
+    if (window.innerWidth <= 900) {
+
+        const heroDetails = document.querySelector(".hero-details");
+        const title = document.querySelector(".hero-details .title");
+        const heroLogo = document.querySelector(".hero-image-wrapper");
+
+        // jika elemen ditemukan
+        if (heroDetails && title && heroLogo) {
+
+            // pindahkan logo tepat setelah title
+            title.insertAdjacentElement("afterend", heroLogo);
+
+        }
+
+    }
+
+});

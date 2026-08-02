@@ -800,15 +800,14 @@ margin-top: 80px;
   }
 
 .hero-section .section-content{
+
     display:flex;
-    flex-direction:column-reverse;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
 
-    gap:20px;
-
-    padding:90px 20px 30px;
+    padding:90px 20px 35px;
 }
 
 .hero-section .hero-details .subtitle{
@@ -846,13 +845,20 @@ margin-top: 80px;
 
 .hero-section .hero-image-wrapper{
 
-    max-width:240px;
+    width:220px;
 
-    width:100%;
+    max-width:100%;
 
-    margin:0 auto 15px;
+    margin:18px auto 25px;
+
+    flex:none;
 
     transform:none;
+}
+
+.hero-section .hero-image{
+
+    width:100%;
 }
 
 .hero-section .hero-details .title{
