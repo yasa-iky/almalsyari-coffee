@@ -100,7 +100,7 @@ header {
 
 header .navbar {
   display: flex;
-  padding: 20px;
+  padding: 14 px 20px;
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
@@ -800,27 +800,31 @@ margin-top: 80px;
   }
 
 .hero-section .section-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 40px;
-    padding: 110px 20px 60px;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    gap:20px;
+
+    padding:90px 20px 30px;
 }
 
 .hero-section .hero-details .subtitle{
-    font-size: 2rem;
-    line-height: 1.3;
-    text-align: center;
-    margin: 20px auto;
+
+    font-size:1.8rem;
+    line-height:1.25;
+    margin:15px auto;
 }
 
 .hero-section .hero-details .description{
-    max-width: 100%;
-    font-size: 1rem;
-    line-height: 1.8;
-    text-align: center;
-    margin: 0 auto;
+
+    max-width:95%;
+    font-size:.95rem;
+    line-height:1.8;
+    text-align:center;
+    margin:0 auto;
 }
 
 .hero-section .hero-details :is(.subtitle, .description),
@@ -830,31 +834,38 @@ margin-top: 80px;
 }
 
 .hero-section .hero-details .buttons{
+
     display:flex;
     justify-content:center;
-    gap:20px;
+    gap:15px;
     flex-wrap:wrap;
-    margin-top:35px;
+    margin-top:25px;
+    padding:12px 22px;
+    font-size:.95rem;
 }
 
 .hero-section .hero-image-wrapper{
 
-    max-width:220px;
+    max-width:240px;
 
     width:100%;
 
-    margin:0 auto;
+    margin:0 auto 15px;
+
+    transform:none;
 }
 
 .hero-section .hero-details .title{
-    font-size:3rem;
-    line-height:1.1;
-    letter-spacing:1px;
+
+    font-size:2.6rem;
+    line-height:1;
+    margin-bottom:8px;
 }
 
 .hero-section .hero-details .title span{
-    font-size:2rem;
-    margin-top:0;
+
+    font-size:1.7rem;
+    margin-top:6px;
 }
 
   .about-section .section-content {
