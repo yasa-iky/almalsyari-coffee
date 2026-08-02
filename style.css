@@ -846,19 +846,14 @@ margin-top: 80px;
 .hero-section .hero-image-wrapper{
 
     width:220px;
+
     max-width:100%;
 
-    margin:10px auto 10px;
+    margin:18px auto 25px;
 
     flex:none;
 
-    position: relative;
-    top: -30px;
-}
-
-.hero-section .hero-image{
-
-    width:100%;
+    transform:none;
 }
 
 .hero-section .hero-details .title{
