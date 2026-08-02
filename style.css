@@ -815,6 +815,9 @@ margin-top: 80px;
     font-size:1.8rem;
     line-height:1.25;
     margin:15px auto;
+
+    position: relative;
+    top: -15px;
 }
 
 .hero-section .hero-details .description{
